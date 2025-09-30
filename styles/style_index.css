@@ -1,11 +1,3 @@
-*{
-    font-family: cursive;
-}
-.heading-text{
-    text-align: center;
-    margin-top: -10px;
-}
-
 .projects{
     text-align: center;
     margin-left: 10%;
@@ -24,7 +16,8 @@
     padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    transition: box-shadow 0.2s,
+    transition:
+    box-shadow 0.2s,
     margin-top 1s,
     maring-bottom 1s,
     transform 1s;
