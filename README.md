@@ -4,4 +4,5 @@ In this repo you will find a documentary/archive of my journey teaching myself h
 
 ![cat-smile](https://github.com/user-attachments/assets/c5afd61e-9023-4c85-9dff-552137dd5c96)
 
-@Pilotiju
+### @Pilotiju
+(maybe I'll even try to teach myself Javascript in the future)
