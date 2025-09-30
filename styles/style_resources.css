@@ -1,0 +1,52 @@
+*{
+    font-family: cursive;
+}
+
+.heading-text{
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: 247px 247px 247px;
+    grid-template-columns: 300px 300px 300px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+}
+
+.video-image{
+    width: 300px;
+    object-fit: contain;
+    object-position: top;
+}
+
+.item{
+    width: 300px;
+    object-fit: contain;
+    object-position: top;
+}
+
+.item:hover{
+    cursor: pointer;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+.channel-image{
+    vertical-align: top;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    text-decoration: none;
+}
+.video-text{
+    vertical-align: top;
+    width: 247px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+

@@ -1,0 +1,74 @@
+*{
+    font-family: cursive;
+}
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.button-area{
+    display: inline-block;
+}
+
+.button{
+    width: 100px;
+    height: 100px;
+    text-shadow: 5px;
+    text-align: center;
+    background-color: black;
+    color: lightblue;
+    border-color: lightblue;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+    transition: border-radius 0.2s;
+}
+.button:hover {
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: lightblue;
+    background-color: rgb(31, 31, 31);
+}
+.button:active{
+    border-radius: 40px;
+    background-color: black;
+}
+
+.options a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: rgb(34, 34, 34);
+}
+.button-area .options{
+    display: none;
+    position: absolute;
+    box-shadow: 0px 0px 10px;
+    margin-left: 1.7%;
+}
+.button-area:hover .options{
+    display: block;
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+@keyframes slide {
+    from{
+        border-color: lightblue;
+        margin-left: 50%;
+    }
+    to{
+        border-color: rgb(102, 169, 223);
+        margin-left: 100%;
+    }
+}

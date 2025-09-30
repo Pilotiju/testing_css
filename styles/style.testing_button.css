@@ -1,0 +1,30 @@
+*{
+    font-family: cursive;
+}
+h1{
+    text-align: center;
+}
+
+.button{
+    align-content: center;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    background-color: white;
+    outline-color: color;
+    outline-style: solid;
+    outline-width: 3px;
+    border-radius: 10px;
+
+
+    transition: all 1s;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    outline-color: black;
+    box-shadow: 0px 0px 100px rgb(0, 174, 255);
+}
