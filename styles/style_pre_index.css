@@ -1,0 +1,15 @@
+p{
+    font-size: 20px;
+}
+
+.i-understand{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(196, 196, 196);
+    padding: 10px;
+}
+
+.i-understand:hover{
+    background-color: rgb(175, 175, 175);
+}

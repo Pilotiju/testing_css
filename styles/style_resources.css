@@ -5,19 +5,25 @@
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    gap: 10px;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
 }
 
 .video-image{
     width: 300px;
     object-fit: contain;
     object-position: top;
+    border-radius: 10px;
 }
 
 .item{
     width: 300px;
-    object-fit: contain;
-    object-position: top;
+    color:black;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
 }
 
 .item:hover{
@@ -25,6 +31,7 @@
     outline-color: black;
     outline-style: solid;
     outline-width: 1px;
+    background-color: rgb(226, 226, 226);
 }
 
 .channel-image{
@@ -32,13 +39,19 @@
     width: 48px;
     height: 48px;
     display: inline-block;
-    text-decoration: none;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 100%;
+    overflow: hidden;
+    object-fit: scale-down;
 }
+
 .video-text{
     vertical-align: top;
-    width: 247px;
+    width: 241px;
     display: inline-block;
     color: black;
     text-decoration: none;
+    margin-left: 1px;
 }
 
