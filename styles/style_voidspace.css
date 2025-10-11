@@ -144,18 +144,51 @@ body{
     top: 380px;
     font-size: 1.5rem;
     text-decoration: none;
-    padding: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 24px;
+    padding-left: 24px;
     background-color: rgb(26, 26, 26);
     border-radius: 15px;
+}
+.hero-section-container .call-to-action-button .shoping-img{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 7px;
+    width: 40px;
+    z-index: 10;
+}
+.hero-section-container .call-to-action-button-text{
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 10;
+    position: relative;
+    display: inline-flex;
+}
+.hero-section-container .call-to-action-button::before{
+    content: "";
+    position: absolute;
+    background: linear-gradient(to bottom right, rgb(238, 113, 10), rgb(212, 177, 21));
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
+    border-radius: 15px;
+    transition: all 11s;
+    z-index: -2;
 }
 .hero-section-container .call-to-action-button::after{
     content: "";
     position: absolute;
-    background: linear-gradient(to bottom right, transparent, transparent,transparent, rgb(156, 116, 5)),
-                linear-gradient(to top left, transparent, transparent,transparent, rgb(156, 116, 5));
-    width: 101%;
-    height: 107%;
-    border-radius: 15px;
-    transition: all 11s;
-    z-index: -1;
+    background: linear-gradient(to bottom, transparent, transparent, rgb(238, 113, 10), rgb(212, 177, 21));
+    width: 100.1%;
+    height: 100.1%;
+    border-radius: 14px;
+    opacity: 0;
+    transition: all 200ms;
+}
+.hero-section-container .call-to-action-button:hover{
+    font-weight: bold;
+}
+.hero-section-container .call-to-action-button:hover::after{
+    opacity: 100;
 }
