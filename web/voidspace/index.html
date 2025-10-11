@@ -3,26 +3,29 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Testing CSS - Main</title>
+        <title>VoidSpace</title>
         <link rel="stylesheet" href="../../styles/style_voidspace.css">
+        <link rel="icon" type="image/svg" href="../../images\voidspace\favicon.svg">
     </head>
 <body>
     <div class="nav-bar">
-        <a href="index.html">
-            <img class="logo" src="../../images/voidspace/VoidSpace.svg">
+        <a class="nav-bar-item logo-container nav-bar-item-std-padding" href="index.html">
+            <img class="logo" src="../../images/voidspace/VoidSpace-white.svg">
         </a>
-        <div class="nav-bar-item white-text">Products</div>
-        <div class="nav-bar-item white-text">About</div>
-        <div class="user">
-            <img class="user-image" src="../../images/voidspace/user.svg">
+        <a href="products.html" class="nav-bar-item nav-bar-item-std-padding"><div class="white-text">Products</div></a>
+        <a href="about.html" class="nav-bar-item nav-bar-item-std-padding"><div class="white-text">About</div></a>
+        <div class="nav-bar-item-filler"></div>
+        <a class="nav-bar-item login-content" href="login.html">
             <span class="white-text">Login</span>
-        </div>
+            <img class="login-img" src="../../images/voidspace/user.svg" alt="A glowing black hole in space">
+        </a>
     </div>
-    <br>
-    <br>
-    <div class="container-heading-text">
-        <div class="top-heading-text gray-text">Buy your very own</div>
-        <div class="main-heading-text white-text">Black Hole</div>
+    <div class="hero-section-container">
+        <div class="container-heading-text">
+            <div class="top-heading-text gray-text">Buy your very own</div>
+            <div class="main-heading-text white-text">Black Hole</div>
+        </div>
+        <a class="white-text call-to-action-button" href="products.html">Customize your Universe</a>
     </div>
 </body>
 </html>
