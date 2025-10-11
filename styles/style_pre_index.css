@@ -2,6 +2,10 @@ p{
     font-size: 20px;
 }
 
+body{
+    background-color: rgb(252, 238, 211);
+}
+
 .i-understand{
     font-size: 20px;
     text-decoration: none;
